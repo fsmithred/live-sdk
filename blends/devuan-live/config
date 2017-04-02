@@ -13,7 +13,8 @@ rootcredentials="root:devuan"
 default_shell="/bin/bash"
 
 extra_packages+=(
-	lsof
+
+ 	lsof
 	bash-completion
 	texinfo
 	acpi-support-base
@@ -46,6 +47,7 @@ extra_packages+=(
 )
 
 purge_packages+=(
+
 	btrfs-tools
 	debian-keyring
 	elinks
@@ -65,7 +67,7 @@ purge_packages+=(
 )
 
 custom_deb_packages=(
-	#refracta-lang_1.1.deb
+
 	refractainstaller-base_9.2.1_all.deb
 	refractasnapshot-base_10.0.2_all.deb
 )
